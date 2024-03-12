@@ -8,7 +8,7 @@ class Pantallaini_0438 extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text("paguina inicial barrios_0438"),
-          backgroundColor: Colors.lightGreen,
+          backgroundColor: Color(0xff0f5187),
         ),
         body: Center(
           child: Column(
@@ -18,13 +18,25 @@ class Pantallaini_0438 extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, "/pantalla1_0438");
                 }, // fin onpressed
-                child: const Text("Mover a Pantalla1"),
+                child: const Text(
+                  "Ejemplo card",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
               ),
               ElevatedButton(
                 onPressed: () {
                   Navigator.pushNamed(context, "/pantalla2_0438");
                 }, // fin onpressed
-                child: const Text("Mover a Pantalla2"),
+                child: const Text(
+                  "Ejemplo card 2",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
               )
             ],
           ),

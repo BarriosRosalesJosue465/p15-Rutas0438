@@ -7,17 +7,26 @@ class Pantalla2_0438 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pantalla1 Barrios0438'),
-        backgroundColor: Colors.brown,
+        title: const Text('Pantalla1 Barrios0438'),
+        backgroundColor: Color(0xff0f5187),
       ),
       body: Center(
-        child: Column(
-          children: [
-            ElevatedButton(
-              onPressed: () {},
-              child: const Text("pantalla2"), //fin de onpressed
-            )
-          ], //fin de niños
+        //  Card with size
+        child: Container(
+          color: Colors.lightBlue,
+          width: double.infinity,
+          height: 300,
+          child: Card(
+            color: Color(0xff9a9898),
+            margin: EdgeInsets.all(25),
+            child: Padding(
+              padding: EdgeInsets.all(60),
+              child: Text(
+                'Josue Barrios',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+              ),
+            ),
+          ),
         ),
       ),
     );

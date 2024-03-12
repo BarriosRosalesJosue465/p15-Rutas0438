@@ -6,20 +6,24 @@ class Pantalla1_0438 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Pantalla1 Barrios0438'),
-        backgroundColor: Colors.lightBlueAccent,
-      ),
-      body: Center(
-        child: Column(
-          children: [
-            ElevatedButton(
-              onPressed: () {},
-              child: const Text("pantalla1"), //fin de onpressed
-            )
-          ], //fin de niños
+        appBar: AppBar(
+          title: const Text('Pantalla1 Barrios0438'),
+          backgroundColor: Color(0xff0f5187),
         ),
-      ),
-    );
+        body: Center(
+          child: Card(
+            color: Colors.grey,
+            child: Padding(
+              padding: EdgeInsets.all(16),
+              child: Text(
+                'Josue Barrios',
+                style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 30,
+                    color: Color(0xff0f5187)),
+              ),
+            ),
+          ),
+        ));
   } //fin de widget
 } //fin de pantalla
