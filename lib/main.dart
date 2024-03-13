@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:Barrios0438/pantalla1_0438.dart';
 import 'package:Barrios0438/pantalla2_0438.dart';
+import 'package:Barrios0438/pantalla3_0438.dart';
 import 'package:Barrios0438/pantallaini_0438.dart';
 
 void main() => runApp(const MyApp0438());
@@ -17,6 +18,7 @@ class MyApp0438 extends StatelessWidget {
         "/": (context) => const Pantallaini_0438(),
         "/pantalla1_0438": (context) => const Pantalla1_0438(),
         "/pantalla2_0438": (context) => const Pantalla2_0438(),
+        "/pantalla3_0438": (context) => const Pantalla3_0438(),
       }, //fin ruta paguinas
     ); //fin materia
   } //fin widget

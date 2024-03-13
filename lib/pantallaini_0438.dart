@@ -19,7 +19,7 @@ class Pantallaini_0438 extends StatelessWidget {
                   Navigator.pushNamed(context, "/pantalla1_0438");
                 }, // fin onpressed
                 child: const Text(
-                  "Ejemplo card",
+                  "Ejemplo 1",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 20,
@@ -31,7 +31,20 @@ class Pantallaini_0438 extends StatelessWidget {
                   Navigator.pushNamed(context, "/pantalla2_0438");
                 }, // fin onpressed
                 child: const Text(
-                  "Ejemplo card 2",
+                  "Ejemplo  2",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, "/pantalla3_0438");
+                }, // fin onpressed
+
+                child: const Text(
+                  "Ejemplo  3",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 20,
